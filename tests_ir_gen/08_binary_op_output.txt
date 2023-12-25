@@ -1,0 +1,6 @@
+IR_PrimitiveLiteral(reg='_t1_', val=1) 
+IR_PrimitiveLiteral(reg='_t2_', val=1) 
+IR_PrimitiveLiteral(reg='_t3_', val=2) 
+IR_BinaryOperation(result_reg='_t4_', left_reg='_t2_', right_reg='_t3_', operator='+') 
+IR_BinaryOperation(result_reg='_t5_', left_reg='_t1_', right_reg='_t4_', operator='+') 
+IR_Assignment(name='a', val='_t5_') 

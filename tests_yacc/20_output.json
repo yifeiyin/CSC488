@@ -1,0 +1,200 @@
+[
+  {
+    "NODE": "Assignment",
+    "left": {
+      "NODE": "Id",
+      "name": "a"
+    },
+    "type": null,
+    "right": {
+      "NODE": "NonPrimitiveLiteral",
+      "name": "list",
+      "children": [
+        {
+          "NODE": "PrimitiveLiteral",
+          "name": "int",
+          "value": 1
+        },
+        {
+          "NODE": "PrimitiveLiteral",
+          "name": "int",
+          "value": 2
+        },
+        {
+          "NODE": "PrimitiveLiteral",
+          "name": "int",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "NODE": "ForLoopList",
+    "var": {
+      "NODE": "Id",
+      "name": "i"
+    },
+    "Lst": {
+      "NODE": "Id",
+      "name": "a"
+    },
+    "body": {
+      "NODE": "Block",
+      "lst": [
+        {
+          "NODE": "WhileStmt",
+          "cond": {
+            "NODE": "BinaryOperation",
+            "left": {
+              "NODE": "Id",
+              "name": "b"
+            },
+            "operator": "<",
+            "right": {
+              "NODE": "PrimitiveLiteral",
+              "name": "int",
+              "value": 6
+            }
+          },
+          "body": {
+            "NODE": "Block",
+            "lst": [
+              {
+                "NODE": "IfStmt",
+                "ifCond": {
+                  "NODE": "BinaryOperation",
+                  "left": {
+                    "NODE": "Id",
+                    "name": "c"
+                  },
+                  "operator": "==",
+                  "right": {
+                    "NODE": "PrimitiveLiteral",
+                    "name": "int",
+                    "value": 3
+                  }
+                },
+                "body": {
+                  "NODE": "Block",
+                  "lst": [
+                    {
+                      "NODE": "FunctionCall",
+                      "name": {
+                        "NODE": "Id",
+                        "name": "bar"
+                      },
+                      "lst": {
+                        "NODE": "ArgumentLst",
+                        "lst": [
+                          {
+                            "NODE": "Id",
+                            "name": "c"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "NODE": "ElifStmt",
+                "elifCond": {
+                  "NODE": "BinaryOperation",
+                  "left": {
+                    "NODE": "Id",
+                    "name": "d"
+                  },
+                  "operator": ">=",
+                  "right": {
+                    "NODE": "PrimitiveLiteral",
+                    "name": "int",
+                    "value": 7
+                  }
+                },
+                "body": {
+                  "NODE": "Block",
+                  "lst": [
+                    {
+                      "NODE": "FunctionCall",
+                      "name": {
+                        "NODE": "Id",
+                        "name": "foo"
+                      },
+                      "lst": {
+                        "NODE": "ArgumentLst",
+                        "lst": [
+                          {
+                            "NODE": "Id",
+                            "name": "d"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "NODE": "ElseStmt",
+                "body": {
+                  "NODE": "Block",
+                  "lst": [
+                    {
+                      "NODE": "Assignment",
+                      "left": {
+                        "NODE": "Id",
+                        "name": "b"
+                      },
+                      "type": null,
+                      "right": {
+                        "NODE": "BinaryOperation",
+                        "left": {
+                          "NODE": "Id",
+                          "name": "b"
+                        },
+                        "operator": "+",
+                        "right": {
+                          "NODE": "PrimitiveLiteral",
+                          "name": "int",
+                          "value": 5
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "NODE": "FunctionCall",
+          "name": {
+            "NODE": "Id",
+            "name": "foobar"
+          },
+          "lst": {
+            "NODE": "ArgumentLst",
+            "lst": [
+              {
+                "NODE": "Id",
+                "name": "i"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "NODE": "Assignment",
+    "left": {
+      "NODE": "Id",
+      "name": "f"
+    },
+    "type": null,
+    "right": {
+      "NODE": "PrimitiveLiteral",
+      "name": "float",
+      "value": 10.0
+    }
+  }
+]

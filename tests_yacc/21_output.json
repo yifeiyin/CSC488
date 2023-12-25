@@ -1,0 +1,81 @@
+[
+  {
+    "NODE": "FunctionDef",
+    "name": {
+      "NODE": "Id",
+      "name": "foo"
+    },
+    "lst": {
+      "NODE": "ParameterLst",
+      "lst": [
+        {
+          "NODE": "Parameter",
+          "paramType": {
+            "NODE": "Type",
+            "value": {
+              "NODE": "PrimitiveType",
+              "value": "int"
+            }
+          },
+          "var": {
+            "NODE": "Id",
+            "name": "x"
+          }
+        },
+        {
+          "NODE": "Parameter",
+          "paramType": {
+            "NODE": "Type",
+            "value": {
+              "NODE": "PrimitiveType",
+              "value": "int"
+            }
+          },
+          "var": {
+            "NODE": "Id",
+            "name": "y"
+          }
+        }
+      ]
+    },
+    "body": {
+      "NODE": "Block",
+      "lst": [
+        {
+          "NODE": "Assignment",
+          "left": {
+            "NODE": "Id",
+            "name": "x"
+          },
+          "type": null,
+          "right": {
+            "NODE": "BinaryOperation",
+            "left": {
+              "NODE": "Id",
+              "name": "x"
+            },
+            "operator": "+",
+            "right": {
+              "NODE": "Id",
+              "name": "y"
+            }
+          }
+        },
+        {
+          "NODE": "ReturnStmt",
+          "stmt": {
+            "NODE": "Id",
+            "name": "x"
+          }
+        }
+      ]
+    },
+    "returnType": {
+      "NODE": "Type",
+      "value": {
+        "NODE": "PrimitiveType",
+        "value": "int"
+      }
+    }
+  }
+]

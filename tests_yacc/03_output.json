@@ -1,0 +1,21 @@
+[
+  {
+    "NODE": "Assignment",
+    "left": {
+      "NODE": "Id",
+      "name": "bbb"
+    },
+    "type": {
+      "NODE": "Type",
+      "value": {
+        "NODE": "PrimitiveType",
+        "value": "int"
+      }
+    },
+    "right": {
+      "NODE": "PrimitiveLiteral",
+      "name": "float",
+      "value": 10.0
+    }
+  }
+]

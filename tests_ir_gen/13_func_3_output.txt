@@ -1,0 +1,7 @@
+IR_Goto(label='L_1') 
+IR_Label(value='L_FUNC_func_2') 
+IR_Parameter(reg='_t1_', length=1) 
+IR_Parameter_VAL(reg='_t2_', name=Id(name='param')) 
+IR_Label(value='L_1') 
+IR_PrimitiveLiteral(reg='_t3_', val=1.1) 
+IR_ReturnStmt(reg='_t3_') 

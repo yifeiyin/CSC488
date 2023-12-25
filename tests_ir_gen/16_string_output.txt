@@ -1,0 +1,6 @@
+IR_String(reg='_t1_', length=4) 
+IR_String_char(reg='_t2_', val='1') 
+IR_String_char(reg='_t3_', val='2') 
+IR_String_char(reg='_t4_', val='3') 
+IR_String_char(reg='_t5_', val='4') 
+IR_Assignment(name='a', val='_t1_') 

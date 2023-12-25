@@ -1,0 +1,74 @@
+[
+  {
+    "NODE": "Assignment",
+    "left": {
+      "NODE": "Id",
+      "name": "a"
+    },
+    "type": {
+      "NODE": "Type",
+      "value": {
+        "NODE": "PrimitiveType",
+        "value": "int"
+      }
+    },
+    "right": {
+      "NODE": "PrimitiveLiteral",
+      "name": "int",
+      "value": 1
+    }
+  },
+  {
+    "NODE": "Assignment",
+    "left": {
+      "NODE": "Id",
+      "name": "b"
+    },
+    "type": {
+      "NODE": "Type",
+      "value": {
+        "NODE": "PrimitiveType",
+        "value": "str"
+      }
+    },
+    "right": {
+      "NODE": "PrimitiveLiteral",
+      "name": "str",
+      "value": "123"
+    }
+  },
+  {
+    "NODE": "Assignment",
+    "left": {
+      "NODE": "Id",
+      "name": "c"
+    },
+    "type": {
+      "NODE": "Type",
+      "value": {
+        "NODE": "PrimitiveType",
+        "value": "int"
+      }
+    },
+    "right": {
+      "NODE": "FunctionCall",
+      "name": {
+        "NODE": "Id",
+        "name": "x"
+      },
+      "lst": {
+        "NODE": "ArgumentLst",
+        "lst": [
+          {
+            "NODE": "Id",
+            "name": "a"
+          },
+          {
+            "NODE": "Id",
+            "name": "b"
+          }
+        ]
+      }
+    }
+  }
+]

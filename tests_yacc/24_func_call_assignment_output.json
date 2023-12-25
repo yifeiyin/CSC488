@@ -1,0 +1,27 @@
+[
+  {
+    "NODE": "Assignment",
+    "left": {
+      "NODE": "Id",
+      "name": "a"
+    },
+    "type": {
+      "NODE": "Type",
+      "value": {
+        "NODE": "PrimitiveType",
+        "value": "int"
+      }
+    },
+    "right": {
+      "NODE": "FunctionCall",
+      "name": {
+        "NODE": "Id",
+        "name": "x"
+      },
+      "lst": {
+        "NODE": "ArgumentLst",
+        "lst": []
+      }
+    }
+  }
+]

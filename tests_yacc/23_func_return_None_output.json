@@ -1,0 +1,32 @@
+[
+  {
+    "NODE": "FunctionDef",
+    "name": {
+      "NODE": "Id",
+      "name": "func"
+    },
+    "lst": {
+      "NODE": "ParameterLst",
+      "lst": null
+    },
+    "body": {
+      "NODE": "Block",
+      "lst": []
+    },
+    "returnType": {
+      "NODE": "Type",
+      "value": {
+        "NODE": "PrimitiveType",
+        "value": "none"
+      }
+    }
+  },
+  {
+    "NODE": "ReturnStmt",
+    "stmt": {
+      "NODE": "PrimitiveLiteral",
+      "name": "none",
+      "value": "none-placeholder"
+    }
+  }
+]

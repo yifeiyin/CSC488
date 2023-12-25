@@ -1,0 +1,15 @@
+[
+  {
+    "NODE": "Assignment",
+    "left": {
+      "NODE": "Id",
+      "name": "a"
+    },
+    "type": null,
+    "right": {
+      "NODE": "NonPrimitiveLiteral",
+      "name": "list",
+      "children": []
+    }
+  }
+]
